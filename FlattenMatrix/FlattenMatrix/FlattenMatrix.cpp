@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 int indexOf1D(int i, int j, int k, int m, int n);
 int main()
 {
@@ -18,7 +19,7 @@ int main()
 	vector<vector<vector<int>>> mat(n, vector<vector<int>>(m, vector<int>(p)));
 
 	// creating the Flatten vector
-	int q = n * m * p;
+	long q = n * m * p;
 	vector<int> flatten(q);
 
 	// creating both 3D Matrix and the 1D vector
@@ -57,9 +58,6 @@ int indexOf1D(int i, int j, int k, int m, int n)
 									  25 26 27
 
 	my idea is to take each row in depth together then flat it so i can take {1 , 10 , 19} then {4 , 13 ,22} then {7 , 6 ,25} and so on
-
-
-
 	*/
 	return i + n * (j + m * k);
 

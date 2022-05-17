@@ -1,10 +1,4 @@
-<div align="center">
-
 # Matrix Flatten
-
- <img src="screenshots/task3.jpg">
- 
-</div>
 
 ## About
 * This program converts a 3D matrix to a flattened
@@ -16,8 +10,8 @@
 ## Complexity
 
 - The complexity of indexing from i, j, k to y is **O(1)**
-- The indexing formula for the conversion from 3D element position to 1D is y = (i * m * p) + (j * p) + k
-- The complexity of looping through the 3D vector is **O(n\*m\*p)** = **O(N)** where N is the number of elements 
+- The indexing formula for the conversion from 3D element position to 1D is y =i * n(j + m*k)
+- The complexity of looping through the 3D vector is **O(n\*m\*p)** 
 
 ## Dependencies
 
@@ -26,42 +20,17 @@
 ## 💻 Installing
 
 ```
-git clone https://github.com/abdelrahman0123/Matrix-Flatten 
-```
-
-```
-g++ Main.cpp
-```
-
-```
-./a.out
+git clone https://github.com/abdelazizSalah/MatrixFlatten
 ```
 
 ### 📷 Screenshots
 
-#### Fill 3D matrix with unique numbers
-![start](screenshots/1.jpg)
+#### Length = Width = Height = 3
+![start](Screenshots/LengthxWidthxHeightAllSame.jpg)
 
-#### Convert 3D matrix into 1D vector using the formula y = i * m*(j + n*p)
-![start](screenshots/2.jpg)
+#### Length = 3, Width = 4, Height = 5
+![start](screenshots/ThreeFourFive.jpg)
 
-#### Test random cases
-![start](screenshots/3.jpg)
-![start](screenshots/4.jpg)
-![start](screenshots/5.jpg)
+#### Length = Height = 2, width = 1
+![start](screenshots/twoOneTwo.jpg)
 
-
-## Contributors
-
-<table>
-<tr>
-<td align="center">
-<a href="https://github.com/abdelrahman0123" target="_blank">
-<img src="https://avatars.githubusercontent.com/u/67989900?v=4" width="150px;" alt="Abdelrahman Hamdy"/><br /><sub><b>Abdelrahman Hamdy</b></sub></a><br />
-</td>
-</tr>
- </table>
-
-## License
-
-This project is licensed under the [MIT] License - see the [LICENSE.md](LICENSE) file for details
