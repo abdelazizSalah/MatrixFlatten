@@ -29,8 +29,8 @@ git clone https://github.com/abdelazizSalah/MatrixFlatten
 ![start](Screenshots/LengthxWidthxHeightAllSame.jpg)
 
 #### Length = 3, Width = 4, Height = 5
-![start](screenshots/ThreeFourFive.jpg)
+![start](Screenshots/ThreeFourFive.jpg)
 
 #### Length = Height = 2, width = 1
-![start](screenshots/twoOneTwo.jpg)
+![start](Screenshots/twoOneTwo.jpg)
 
