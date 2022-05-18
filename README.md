@@ -10,7 +10,7 @@
 ## Complexity
 
 - The complexity of indexing from i, j, k to y is **O(1)**
-- The indexing formula for the conversion from 3D element position to 1D is y =i * n(j + m*k)
+- The indexing formula for the conversion from 3D element position to 1D is y =i * n*(j + m*k)
 - The complexity of looping through the 3D vector is **O(n\*m\*p)** 
 
 ## Dependencies
